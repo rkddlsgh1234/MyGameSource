@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ResManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JarEnemy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FireRing.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Cash.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainIntro.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowBitMap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ResManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JarEnemy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FireRing.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Cash.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainIntro.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowBitMap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CircusGame.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Res\back.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\back_deco.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\back_normal.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\back_normal2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\cash.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\die.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\end.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\enemy.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\enemy_1b.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\enemy_1f.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\enemy_b.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\enemy_f.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\enemy_l.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\enemy_l_b.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\enemy_l_f.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\enemy1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\front.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\front2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\icon.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\miter.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\player0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\player1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\player2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\star.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\star1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\star2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\win.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\win2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\BlackBackGround.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\ScoreBoard.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\ScoreBoard.PNG">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\enemy_cash_1b.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\enemy_cash_1f.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\enemy_cash_2b.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\enemy_cash_2f.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\miter1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\miter2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\miter3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\miter4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\miter5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\miter6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\miter7.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\miter8.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\miter9.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\miter10.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Res\TitleLogo.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
