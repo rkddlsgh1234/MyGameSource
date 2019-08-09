@@ -1,0 +1,4 @@
+﻿  MapToolManager.cpp
+k:\ax6133\battlecity\battlecity\maptoolmanager.cpp(51): warning C4101: 'str' :참조되지 않은 지역 변수입니다.
+k:\ax6133\battlecity\battlecity\maptoolmanager.cpp(161): warning C4101: 'str' :참조되지 않은 지역 변수입니다.
+  BattleCity.vcxproj -> K:\ax6133\BattleCity\x64\Debug\BattleCity.exe
